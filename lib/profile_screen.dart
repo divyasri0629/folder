@@ -16,11 +16,11 @@ class ProfileScreen extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(
-          title: const Text('Student Profile'),
+          title: Text('Student Profile'),
           centerTitle: true,
         ),
         body: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding:EdgeInsets.all(16.0),
           child: Card(
             elevation: 4,
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
@@ -33,7 +33,7 @@ class ProfileScreen extends StatelessWidget {
                   Center(
                     child: CircleAvatar(
                       radius: 50,
-                      backgroundImage:AssetImage('assets/arshiya.jpg'),
+                      backgroundImage:AssetImage('assets/arshiya.png'),
                       backgroundColor: Colors.deepPurple[100],
                     ),
                   ),
