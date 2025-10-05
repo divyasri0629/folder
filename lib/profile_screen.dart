@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'app_theme.dart';
 
 class ProfileScreen extends StatelessWidget {
-  final String name = 'Triveni Kaligatla';
-  final String rollNo = '23P31A4232 ';
-  final String branch = 'AIML';
-  final String email = '23P31A4232@acet.ac.in';
+  final String name = 'Kantamani Divya Sri';
+  final String rollNo = '23A91A1294 ';
+  final String branch = 'Information Technology';
+  final String email = '23A91A1294@ace.edu.in';
 
   const ProfileScreen({super.key});
 

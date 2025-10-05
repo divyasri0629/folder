@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:device_preview/device_preview.dart';
 import 'app_theme.dart';
 import 'attendence_screen.dart';
 import 'courses_screen.dart';
@@ -7,7 +7,7 @@ import 'feedback_screen.dart';
 import 'profile_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(DevicePreview(builder:(context)=>MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme.themeData,
-      home: const HomeScreen(studentName: 'Triveni'),
+      home: const HomeScreen(studentName: 'Divya Sri'),
     );
   }
 }
